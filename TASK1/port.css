@@ -1,0 +1,130 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+body
+ { 
+    background-image:url('port2.png');
+    background-repeat: none;
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.navigation{
+    height: 60px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    height: 75vh;
+    width: 100vw;
+    display:block;
+}
+
+#icon{
+    font-size: 50px;
+}
+#name{
+    font-size: 50px;
+}
+#profile{
+    aspect-ratio:inherit;
+    width: 135px;
+    height: 45vh;
+}
+.pro {
+    text-indent: 155px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hero-section{
+    display:inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+#hero-content{
+    display:inline-flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    display: fixed;
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-inline: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #f1f8cc;
+    
+}
+.des{
+    font-size: 20px;
+    text-indent: 45px;
+    display:fixed;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#resume{
+    height: 10px;
+    flex-direction: column;
+    text-align: center;
+    display:fixed;
+    font-size: 30px;
+    align-items: center;
+    padding-top: 99px;
+}
+#res{
+    width: 490px;
+    display:fixed;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* project */
+#dropdown{
+    aspect-ratio:auto;
+    height: 1rem;
+}
+
+.project-description{
+    display:block;
+}
+.skill-description{
+    display:block;
+    padding-top: 120px;
+    font-size: 21px;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
